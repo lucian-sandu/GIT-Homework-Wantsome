@@ -52,4 +52,30 @@ body {
   button a {
       text-decoration: none;
       color: white;
+li{
+    float: left;
+  }
+  ul {
+      margin: 1px;
+      padding: 1px;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #535353;
+  }
+  li a {
+      display: block;
+      color: white;
+      text-align: left;
+      padding: 25px 30px;
+      text-decoration: none;
+      font-size: 25px;
+  }
+  li a:hover {
+      background-color: #5da1ad;
+  }
+  li .aboute{
+    opacity: 0.7;
+  }
+  li .home{
+    background-color: teal;
   }
